@@ -1,0 +1,26 @@
+{
+  "name": "onecesium",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "element-plus": "^2.8.0",
+    "pinia": "^2.2.1",
+    "sass-embedded": "^1.77.8",
+    "scss": "^0.2.4",
+    "vue": "^3.4.35"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.2",
+    "cesium": "^1.120.0",
+    "unplugin-auto-import": "^0.18.2",
+    "unplugin-vue-components": "^0.27.3",
+    "vite": "^5.4.0",
+    "vite-plugin-cesium": "^1.2.23"
+  }
+}
